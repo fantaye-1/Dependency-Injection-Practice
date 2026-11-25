@@ -1,11 +1,9 @@
 package com.ab.practice.dependency;
 
-public class Cat implements Animal{
+public class Cat implements Animal {
 
 	@Override
-	public void makeSound() {
-		// TODO Auto-generated method stub
-		System.out.println("cat make sound::");
+	public String sound() {
+		return "Meow";
 	}
-
 }
